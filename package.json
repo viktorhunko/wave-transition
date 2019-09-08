@@ -1,0 +1,48 @@
+{
+  "name": "vue-fancy-background",
+  "version": "1.0.0",
+  "description": "vue-fancy-background",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktorhunko/vue-fancy-background.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktorhunko/vue-fancy-background/issues"
+  },
+  "homepage": "https://github.com/viktorhunko/vue-fancy-background#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "jest": "^23.6.0",
+    "jest-serializer-vue": "^2.0.2",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.10.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "vue": "^2.2.6",
+    "vue-hot-reload-api": "^2.0.8",
+    "vue-jest": "^3.0.1",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "vue-test-utils": "^1.0.0-beta.11",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.11",
+    "webpack-merge": "^4.1.4"
+  },
+  "peerDependencies": {
+    "vue": "^2.2.6"
+  }
+}
